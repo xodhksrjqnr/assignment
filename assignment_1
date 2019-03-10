@@ -1,3 +1,4 @@
+<pre><code>
 ## 함수 부분 ##
 def conversion(array, number_array):
     error = 0
@@ -77,3 +78,4 @@ if array[0] == '-o' and array[2] == '-i':
         print("잘못된 입력입니다.")
 else :
     print("잘못된 입력입니다.")
+</code></pre>
