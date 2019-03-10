@@ -4,5 +4,5 @@
 * assignment_1.py
   - -o : 정렬 방식, A/오름차순, D/내림차순
   - -i : 정렬할 배열
-  > This is a blockqute
   
+>This is a blockqute
