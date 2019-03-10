@@ -7,4 +7,4 @@
 
 ``` $ python3 assignment_1.py -o A -i 1 2 5 4 6 0 10 ```
 
-![Alt text](C:/python/Git/image/assignment_1_test.PNG)
+![assignment_1_test](https://user-images.githubusercontent.com/48250370/54082615-f8658b00-435b-11e9-9c0d-d33123017f0f.PNG)
