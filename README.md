@@ -19,3 +19,7 @@
 <pre><code>$ python server.py -p 8888
 $ python client.py -i 127.0.0.1 -p 8888
 </code></pre>
+
+![image1](https://user-images.githubusercontent.com/48250370/54365055-7786f600-46b1-11e9-89d1-d3ee0489c7dd.PNG)
+
+![image2](https://user-images.githubusercontent.com/48250370/54365056-781f8c80-46b1-11e9-921c-ffb491959764.PNG)
