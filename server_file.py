@@ -15,12 +15,11 @@ def run_server(port=4000):
         fileLink = args.d + "/" + fileName.decode()
         print("Search_file_name :", fileName.decode())
         if os.path.exists(fileLink):
+                fileSize = str(os.path.getsize(fileLink))
+                conn.send(fileSize.encode()) # file_size 전송
                 with open(fileLink, 'rb') as f:
-                        data = f.read(1024) # 1024바이트씩 파일을 읽음
-                        while data: # data가 null값일때까지 반복
-                                conn.send(data)
-                                data = f.read(1024)
-                fileSize = os.path.getsize(fileLink)
+                        data = f.read(int(fileSize))
+                        conn.send(data)
                 print("File transfer success.")
                 print("File_size :", fileSize, "byte")
         else:
