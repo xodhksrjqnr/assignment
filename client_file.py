@@ -8,15 +8,14 @@ def run(host, port):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.connect((host, port))
         s.sendall(args.f.encode())
-        data = s.recv(1024)
+        data = s.recv(1024) # 최초 file_size 수신
         if not data:
                 print("File does not exist.")
         else:
+                fileSize = int(data.decode())
+                data = s.recv(fileSize)
                 with open('./' + args.f, 'wb') as f:
-                        while data:
-                                f.write(data)
-                                data = s.recv(1024)
-                fileSize = os.path.getsize(args.f)
+                        f.write(data)
                 print("File transfer success.")
                 print("File name : ", args.f , " File size : ", fileSize, " byte")
 
