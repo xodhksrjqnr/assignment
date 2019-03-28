@@ -39,3 +39,12 @@ $ python client_py -i 127.0.0.1 -p 8888 -f "test.py"
 ![캡처](https://user-images.githubusercontent.com/48250370/54867015-0fc26080-4dbf-11e9-8a29-db00ea4a468b.PNG)
 
 ![캡처1](https://user-images.githubusercontent.com/48250370/54867020-181a9b80-4dbf-11e9-81c5-c10664d6ca76.PNG)
+
+# 4주차 과제 : 프로세스와 스레드에 대해서 조사
+### 인력거 운행중 조 : 김태완(2015040031), 김진용(2015040025)
+
+* assignment_4
+  - 프로세스와 스레드의 정의 및 차이점
+  - 스레드 사용 이유 및 스레드 모델
+  - Python에서 프로세스 및 스레드를 사용하는 방법
+  - HWP 및 DOC 포맷으로 3장 내외
