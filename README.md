@@ -57,3 +57,14 @@ $ python client_py -i 127.0.0.1 -p 8888 -f "test.py"
   - 클라이언트는 서버 연결 후 input() 함수를 사용해 사용자로부터 문자열을 입력 받는다.
   - python thread_server.py -p 8888
   - python thread_client.py -p 8888 -i 127.0.0.1
+
+<pre><code>$ python server_file.py -p 8888
+$ python client_py -i 127.0.0.1 -p 8888 -i 127.0.0.1
+$ python client_py -i 127.0.0.1 -p 8888 -i 127.0.0.1
+</code></pre>
+
+![캡처](https://user-images.githubusercontent.com/48250370/55679961-88dcbe80-594e-11e9-9482-c0e425bc1eb2.PNG)
+
+![캡처1](https://user-images.githubusercontent.com/48250370/55679935-4f0bb800-594e-11e9-96b9-f7dd795b000e.PNG)
+
+![캡처2](https://user-images.githubusercontent.com/48250370/55679939-5206a880-594e-11e9-92fc-5c5b5c4a7a56.PNG)
