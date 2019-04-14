@@ -79,7 +79,7 @@ $ python client_thread.py -i 127.0.0.1 -p 8888 -i 127.0.0.1
   - python server_thread_talk.py -p 8888
   - python client_thread_talk.py -p 8888 -i 127.0.0.1
 
-  <pre><code>$ python server_thread_talk.file.py -p 8888
+<pre><code>$ python server_thread_talk.file.py -p 8888
 $ python client_thread_talk.py -i 127.0.0.1 -p 8888 -i 127.0.0.1
 </code></pre>
 
