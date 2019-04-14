@@ -58,9 +58,9 @@ $ python client_py -i 127.0.0.1 -p 8888 -f "test.py"
   - python thread_server.py -p 8888
   - python thread_client.py -p 8888 -i 127.0.0.1
 
-<pre><code>$ python server_file.py -p 8888
-$ python client_py -i 127.0.0.1 -p 8888 -i 127.0.0.1
-$ python client_py -i 127.0.0.1 -p 8888 -i 127.0.0.1
+<pre><code>$ python server_thread.py -p 8888
+$ python client_thread.py -i 127.0.0.1 -p 8888 -i 127.0.0.1
+$ python client_thread.py -i 127.0.0.1 -p 8888 -i 127.0.0.1
 </code></pre>
 
 ![캡처](https://user-images.githubusercontent.com/48250370/55679961-88dcbe80-594e-11e9-9482-c0e425bc1eb2.PNG)
@@ -68,3 +68,21 @@ $ python client_py -i 127.0.0.1 -p 8888 -i 127.0.0.1
 ![캡처1](https://user-images.githubusercontent.com/48250370/55679935-4f0bb800-594e-11e9-96b9-f7dd795b000e.PNG)
 
 ![캡처2](https://user-images.githubusercontent.com/48250370/55679939-5206a880-594e-11e9-92fc-5c5b5c4a7a56.PNG)
+
+# 6주차 과제 : threading 모듈을 사용해 서버와 클라이언트가 대화를 주고 받을 수 있는 프로그램 작성
+### 인력거 운행중 조 : 김태완(2015040031), 김진용(2015040025)
+
+* assignment_6
+  - 서버는 클라이언트가 전송한 문자열 출력, input()으로 사용자 입력을 받아서 클라이언트에 전달
+  - 클라이언트는 서버가 전송한 문자열 출력, input()으로 사용자 입력을 받아서 서버에 전달
+  - 난이도 조절을 위해 서버는 1개의 클라이언트만 처리
+  - python server_thread_talk.py -p 8888
+  - python client_thread_talk.py -p 8888 -i 127.0.0.1
+
+  <pre><code>$ python server_thread_talk.file.py -p 8888
+$ python client_thread_talk.py -i 127.0.0.1 -p 8888 -i 127.0.0.1
+</code></pre>
+
+![캡처](https://user-images.githubusercontent.com/48250370/56095331-895cf280-5f16-11e9-99c5-c9f9ca10f83c.PNG)
+
+![캡처1](https://user-images.githubusercontent.com/48250370/56095332-895cf280-5f16-11e9-9437-4eaca9da0da0.PNG)
