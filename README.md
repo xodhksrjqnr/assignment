@@ -84,5 +84,7 @@ $ python client_thread_talk.py -i 127.0.0.1 -p 8888 -i 127.0.0.1
 </code></pre>
 
 ![캡처](https://user-images.githubusercontent.com/48250370/56095331-895cf280-5f16-11e9-99c5-c9f9ca10f83c.PNG)
+![캡처3](https://user-images.githubusercontent.com/48250370/56095491-97137780-5f18-11e9-8105-33afa06d1587.PNG)
 
 ![캡처1](https://user-images.githubusercontent.com/48250370/56095332-895cf280-5f16-11e9-9437-4eaca9da0da0.PNG)
+![캡처2](https://user-images.githubusercontent.com/48250370/56095492-97137780-5f18-11e9-896f-28975ff23606.PNG)
