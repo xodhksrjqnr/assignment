@@ -101,3 +101,6 @@ $ python client_thread_talk.py -i 127.0.0.1 -p 8888 -i 127.0.0.1
   - 보고서는 3장 내로 작성(1~2장 : wireshark 조사, 3장 : 패킷 캡쳐 사진 및 설명)
 
 ![캡처](https://user-images.githubusercontent.com/48250370/56862989-a9e37d00-69eb-11e9-8c6d-06fb43355d26.PNG)
+![캡처](https://user-images.githubusercontent.com/48250370/56864228-fedabf80-69fa-11e9-8dd1-d8caf040eb62.PNG)
+![캡처1](https://user-images.githubusercontent.com/48250370/56864229-fedabf80-69fa-11e9-8408-17cc2fcec168.PNG)
+![캡처2](https://user-images.githubusercontent.com/48250370/56864230-ff735600-69fa-11e9-8533-05be9f04a8ac.PNG)
