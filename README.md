@@ -49,7 +49,9 @@ $ python client_py -i 127.0.0.1 -p 8888 -f "test.py"
   - Python에서 프로세스 및 스레드를 사용하는 방법
   - HWP 및 DOC 포맷으로 3장 내외
 
-[컴네과제1.docx](https://github.com/xodhksrjqnr/assignment/files/3124920/1.docx)
+![캡처](https://user-images.githubusercontent.com/48250370/56863818-0e0b3e80-69f6-11e9-839c-1c035f3e09e1.PNG)
+![캡처1](https://user-images.githubusercontent.com/48250370/56863819-0ea3d500-69f6-11e9-8b9d-c8c174ed931d.PNG)
+![캡처2](https://user-images.githubusercontent.com/48250370/56863820-0ea3d500-69f6-11e9-8969-961572a75eeb.PNG)
 
 # 5주차 과제 : threading 모듈을 사용해 다수의 client의 요청을 받을 수 있는 서버 작성
 ### 인력거 운행중 조 : 김태완(2015040031), 김진용(2015040025)
