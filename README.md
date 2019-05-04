@@ -101,6 +101,20 @@ $ python client_thread_talk.py -i 127.0.0.1 -p 8888 -i 127.0.0.1
   - 보고서는 3장 내로 작성(1~2장 : wireshark 조사, 3장 : 패킷 캡쳐 사진 및 설명)
 
 ![캡처](https://user-images.githubusercontent.com/48250370/56862989-a9e37d00-69eb-11e9-8c6d-06fb43355d26.PNG)
+
 ![캡처](https://user-images.githubusercontent.com/48250370/56864228-fedabf80-69fa-11e9-8dd1-d8caf040eb62.PNG)
+
 ![캡처1](https://user-images.githubusercontent.com/48250370/56864229-fedabf80-69fa-11e9-8408-17cc2fcec168.PNG)
+
 ![캡처2](https://user-images.githubusercontent.com/48250370/56864230-ff735600-69fa-11e9-8533-05be9f04a8ac.PNG)
+
+# 8주차 과제 : 수업 Github assignment_8에 있는 raw_sniffer.py를 사용한 패킷 분석
+### 인력거 운행중 조 : 김태완(2015040031), 김진용(2015040025)
+
+* assignment_8
+  - Linux에서 수행할 것
+  - raw_sniffer.py로 Assignment#2(문자열 거꾸로 전송)가 실행되면서 서버-클라이언트간 주고받은 첫 번째 TCP 패킷을 캡처해 사진 첨부(문자열은 팀 이름을 전달)
+  - 캡처한 패킷을 상세히 분석
+  - 보고서는 2장 내로 작성
+
+![캡처](https://user-images.githubusercontent.com/48250370/57181226-ddcb1080-6ecb-11e9-8a34-2a1a742f8fe4.PNG)
