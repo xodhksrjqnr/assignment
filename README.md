@@ -118,3 +118,15 @@ $ python client_thread_talk.py -i 127.0.0.1 -p 8888 -i 127.0.0.1
   - 보고서는 2장 내로 작성
 
 ![캡처](https://user-images.githubusercontent.com/48250370/57181226-ddcb1080-6ecb-11e9-8a34-2a1a742f8fe4.PNG)
+
+# 9주차 과제 : Linux에서 IP Packet을 수신해 Ethernet 헤더, IP 헤더, 페이로드를 출력하는 프로그램 작성
+### 인력거 운행중 조 : 김태완(2015040031), 김진용(2015040025)
+
+* assignment_9
+  - AF_PACKET을 사용하고 PROTOCOL_TYPE은 ETH_P_ALL을 사용
+  - Ethernet 헤더 파싱 후 Ether_type을 통해 IP 패킷인지 검사 후 IP 패킷일 때만 출력
+  - IP 헤더는 헤더의 길이를 먼저 구한 뒤 옵션을 제외한 길이에 맞게 파싱
+  - While 루프를 통해 여러 번 동작하도록 작성
+  - 프로그램 실행 뒤 google.com에 PING을 1번 보낸 결과를 캡쳐해 첨부
+  
+  
