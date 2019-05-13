@@ -129,4 +129,7 @@ $ python client_thread_talk.py -i 127.0.0.1 -p 8888 -i 127.0.0.1
   - While 루프를 통해 여러 번 동작하도록 작성
   - 프로그램 실행 뒤 google.com에 PING을 1번 보낸 결과를 캡쳐해 첨부
   
-  
+![KakaoTalk_20190513_221636917](https://user-images.githubusercontent.com/48250370/57625225-67669680-75ce-11e9-8c15-85a0e830796f.jpg)
+
+![KakaoTalk_20190513_221637044](https://user-images.githubusercontent.com/48250370/57625228-67ff2d00-75ce-11e9-8569-fa74e55e44ab.jpg)
+
