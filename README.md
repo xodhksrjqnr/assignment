@@ -144,3 +144,4 @@ $ python client_thread_talk.py -i 127.0.0.1 -p 8888 -i 127.0.0.1
   - -i : ICMP, -U : UDP, -p : UDP 포트번호(기본 53)
   - 스니핑할 때 자신이 보낸 UDP, ICMP인지 확인하는 로직 작성
   
+![KakaoTalk_20190607_230142449](https://user-images.githubusercontent.com/48250370/59190834-bf39f280-8bb8-11e9-807f-76339d6e3d11.png)
