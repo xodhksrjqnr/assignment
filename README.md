@@ -38,6 +38,8 @@ $ python client_py -i 127.0.0.1 -p 8888 -f "test.py"
 
 ![캡처](https://user-images.githubusercontent.com/48250370/54867015-0fc26080-4dbf-11e9-8a29-db00ea4a468b.PNG)
 
+출력문에 살짝 수정이 있어 사진은 출력문 수정 전 사진입니다.
+
 ![캡처1](https://user-images.githubusercontent.com/48250370/54867020-181a9b80-4dbf-11e9-81c5-c10664d6ca76.PNG)
 
 # 4주차 과제 : 프로세스와 스레드에 대해서 조사
