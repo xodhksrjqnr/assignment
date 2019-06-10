@@ -133,3 +133,14 @@ $ python client_thread_talk.py -i 127.0.0.1 -p 8888 -i 127.0.0.1
 
 ![KakaoTalk_20190513_221637044](https://user-images.githubusercontent.com/48250370/57625228-67ff2d00-75ce-11e9-8569-fa74e55e44ab.jpg)
 
+# TermProject : Traceroute 작성
+### 인력거 운행중 조 : 김태완(2015040031), 김진용(2015040025)
+
+* termproject
+  - send 소켓 : socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_RAW)
+  - struct 모듈을 사용해 직접 IP, ICMP, UDP의 내용 작
+  - host : 목적지 ip 주소 혹은 도메인 네임, size : 패킷의 사이즈(IP헤더부터)
+  - -t : RECV TIMEOUT, -c : MAX_HOPS
+  - -i : ICMP, -U : UDP, -p : UDP 포트번호(기본 53)
+  - 스니핑할 때 자신이 보낸 UDP, ICMP인지 확인하는 로직 작성
+  
